@@ -2,7 +2,7 @@
 
 int download(std::string url, std::string destination) {
     std::cout << "telechargement de minecraft\n";
-    system(("if not exist " + destination + " powershell -Command \"(New-Object Net.WebClient).DownloadFile('" + url + "', '" + destination + "')\" ").c_str());
+    system(("powershell -Command \"(New-Object Net.WebClient).DownloadFile('" + url + "', '" + destination + "')\" ").c_str());
     return 0;
 }
 
