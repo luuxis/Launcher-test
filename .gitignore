@@ -1,0 +1,10 @@
+# Generated
+/.vs/
+/Release/
+/Debug/
+/x64/
+/Launcher-test/bootstrap.aps
+/Launcher-test/Release/
+/Launcher-test/Debug/
+/Launcher-test/x64/
+/Launcher-test.aps
